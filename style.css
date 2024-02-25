@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./background-image.jpeg");
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+.title {
+   margin-left: -970px; 
+background-color: #45a049;
+width: fit-content;
+color: #fff;
+ }
+h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin-top: -10px;
+margin-left: -1140px;
+}
+
+.input-container {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: -930px;
+  width: fit-content;
+}
+
+.input-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  margin-left: -940px;
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1;
+  margin: 0 10px;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+margin-left: -130px; 
+background-color: #45a049;
+width: fit-content;
+color: #fff;
+ }
+  
+  h1 {
+    font-size: 2rem;
+    margin-top: 0;
+margin-left: -200px;
+  }
+  
+  .big-text {
+    font-size: 40px;
+  }
+
+  .countdown-container {
+    flex-direction: column;
+    width: fit-content;
+margin-left: -100px;
+  }
+
+  .countdown-el {
+    margin-bottom: 10px;
+  }
+
+  .input-container {
+    width: fit-content;
+    margin: 0 auto;
+    margin-left: -230px;
+  }
+
+  .input-container label {
+    font-size: 16px;
+  }
+
+  .input-container input[type="text"] {
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+
+  .input-container button {
+    width: fit-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+
