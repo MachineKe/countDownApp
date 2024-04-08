@@ -14,18 +14,23 @@ body {
   justify-content: center;
   font-family: "Poppins", sans-serif;
   margin: 0;
+  width: 100vw;
 }
+
 .title {
-   margin-left: -970px; 
-background-color: #45a049;
-width: fit-content;
-color: #fff;
- }
+  background-color: #45a049;
+  color: #fff;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 100vw;
+}
+
 h1 {
   font-weight: normal;
   font-size: 4rem;
+  text-align: center;
   margin-top: -10px;
-margin-left: -1140px;
 }
 
 .input-container {
@@ -34,8 +39,7 @@ margin-left: -1140px;
   border-radius: 10px;
   text-align: center;
   margin-bottom: 20px;
-  margin-left: -930px;
-  width: fit-content;
+  width: 100vw;
 }
 
 .input-container label {
@@ -44,7 +48,8 @@ margin-left: -1140px;
   font-weight: bold;
 }
 
-.input-container input[type="text"] {
+.input-container input[type="text"],
+.input-container button {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
@@ -53,11 +58,9 @@ margin-left: -1140px;
 }
 
 .input-container button {
-  padding: 10px 20px;
   background-color: #4CAF50;
   color: white;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -70,8 +73,6 @@ margin-left: -1140px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: fit-content;
-  margin-left: -940px;
 }
 
 .big-text {
@@ -90,27 +91,17 @@ margin-left: -1140px;
 }
 
 @media only screen and (max-width: 600px) {
-  .title {
-margin-left: -130px; 
-background-color: #45a049;
-width: fit-content;
-color: #fff;
- }
-  
   h1 {
     font-size: 2rem;
     margin-top: 0;
-margin-left: -200px;
   }
-  
+
   .big-text {
     font-size: 40px;
   }
 
   .countdown-container {
     flex-direction: column;
-    width: fit-content;
-margin-left: -100px;
   }
 
   .countdown-el {
@@ -118,9 +109,8 @@ margin-left: -100px;
   }
 
   .input-container {
-    width: fit-content;
+    width: 80%;
     margin: 0 auto;
-    margin-left: -230px;
   }
 
   .input-container label {
@@ -128,18 +118,11 @@ margin-left: -100px;
   }
 
   .input-container input[type="text"] {
-    width: fit-content;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
     font-size: 16px;
   }
 
   .input-container button {
-    width: fit-content;
     padding: 10px 20px;
-    border-radius: 5px;
     font-size: 16px;
   }
 
@@ -147,5 +130,4 @@ margin-left: -100px;
     font-size: 20px;
   }
 }
-
 
